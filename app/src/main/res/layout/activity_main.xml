@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="100dp"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/connect_ali_iot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_ali_iot"
+
+        />
+
+    <Button
+        android:id="@+id/post_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post_data"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/disconnect_ali_iot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect_ali_iot"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>

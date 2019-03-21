@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IotDeviceTest</string>
+    <string name="connect_ali_iot">连接阿里云Iot</string>
+    <string name="post_data">上报数据</string>
+    <string name="disconnect_ali_iot">断开连接</string>
+
+    <string name="subscribe">订阅topic</string>
+
+</resources>
